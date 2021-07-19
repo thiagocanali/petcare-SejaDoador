@@ -1,0 +1,52 @@
+.card {
+
+  width: 85%;
+  display: block;
+  border-radius: 10px;
+  margin: 1rem auto;
+  right: auto;
+  left: auto;
+}
+
+.card-header{
+  background-color: #F1C40F;
+
+}
+.conteudoduvidasfrequentes{
+width: 80%;
+
+}
+
+.titulo{
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+
+}
+
+.collapse{
+  background-color: white;
+
+}
+.h1duvidasfrequentes{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+  font-size: 4rem;
+
+}
+
+.containerduvidas{
+background-color: yellow;
+margin: 0;
+
+}
+
+.conteudoduvidas{
+
+padding: 4rem;
+
+}
