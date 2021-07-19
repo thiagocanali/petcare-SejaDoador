@@ -1,0 +1,110 @@
+<!-- Header -->
+<header class="container-fluid" style="background-color: #e74c3c;">
+
+  <!-- Container menu-->
+  <section class="container" >
+    <article class="row d-flex align-items-center" >
+
+      <!-- Logo -->
+      <a [routerLink] = "['/home']" class="col-md-2">
+        <img src="assets/img/logo/logoPetcare.svg" alt="Logo empresa - PetCare">
+      </a>
+
+      <!-- Search -->
+      <form action="#" class="col-md-6 d-flex align-items-center">
+        <input type="text" name="name" placeholder="Buscar">
+
+        <button class="d-flex align-items-center">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </button>
+      </form>
+
+      <!-- Login/Register -->
+      <!-- class fly para aumentar o limite do container -->
+      <ul class="col-md-4 nav fly d-flex align-items-center justify-content-around">
+        <li class="nav-item">
+          <a href="#">
+            <img src="./assets/img/logo/loginPetcare.svg" alt="Login PetCare">
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#">
+            <img src="./assets/img/logo/cadastrarPetcare.svg" alt="Cadastrar-se PetCare">
+          </a>
+        </li>
+
+      </ul>
+    </article>
+  </section>
+</header>
+<!-- End Header-->
+
+<!-- Menu -->
+<nav class="container-fluid nav-produtos backmenu ">
+  <section class="container  menufont" >
+    <ul class="nav d-flex">
+      <li class="nav-item " >
+        <a [routerLink] = "['/sejaumcuidador']" >
+          <img src="assets/img/logo/cuidadorHome.png" alt="Seja um cuidador PetCare">
+          <h2>
+            Seja um cuidador
+          </h2>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink] = "['/contrateumservico']">
+          <img src="assets/img/logo/contrateHome.png" alt="Contrate um serviço PetCare">
+          <h2>
+            Contrate um serviço
+          </h2>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink] = "['/duvidasfrequentes']">
+          <img src="assets/img/logo/faqHome.png" alt="Duvidas frequentes sobre a PetCare">
+          <h2>
+            Duvidas frequentes
+          </h2>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink] = "['/sobrenos']">
+          <img src="assets/img/logo/nosHome.png" alt="Sobre a PetCare">
+          <h2>
+            Sobre nós
+          </h2>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink] = "['/sejaumheroi']">
+          <img src="assets/img/logo/heroiHome.png" alt="Contrate um serviço">
+          <h2>
+            Seja um herói
+          </h2>
+        </a>
+      </li>
+    </ul>
+  </section>
+</nav>
+<br/>
+
+<div class="classeDiv">
+
+  <!-- divs -->
+<div class="div-1" style="max-width: 75rem;">
+  <img src="../../assets/img/petcarelogo32.jpg"  style="width:100%" alt="Avatar">
+</div>
+
+<div class="div-2" style="max-width: 75rem;">
+  <img src="../../assets/img/doghighfive23.jpg" class="imgQmSomos" style="width: 100%;" alt="Avatar">
+</div>
+
+<div class="div-3" style="max-width: 75rem;">
+  <img src="../../assets/img/petfriends2.jpg"  style="width:100%; " alt="Avatar">
+</div>
+
+</div>
