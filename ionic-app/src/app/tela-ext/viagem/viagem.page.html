@@ -1,0 +1,73 @@
+<ion-content color="tertiary">
+  <ion-header  class="header-green">
+    <ion-toolbar color="tertiary">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title>viagem</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list class="fundo-verde">
+    <ion-item color="tertiary">
+       <ion-label position="floating">Nome do Pet</ion-label>
+       <ion-input></ion-input>
+     </ion-item> 
+    <ion-item color="tertiary">
+      <ion-label>Espécie</ion-label>
+       <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="dog">Cachorro</ion-select-option>
+        <ion-select-option value="cat">Gato</ion-select-option>
+        <ion-select-option value="bird">Pássaro</ion-select-option>
+        <ion-select-option value="fish">Peixe</ion-select-option>
+        <ion-select-option value="hamster">Hamester</ion-select-option>
+      </ion-select>
+    </ion-item>
+    
+    <ion-item color="tertiary">
+      <ion-label>Tamanho</ion-label>
+       <ion-select value="notifications" interface="action-sheet">
+         <ion-select-option value="small">Pequeno</ion-select-option>
+         <ion-select-option value="medium">Médio</ion-select-option>
+        <ion-select-option value="big">Grande</ion-select-option>
+       </ion-select>
+    </ion-item>
+
+    <ion-item color="tertiary">
+      <ion-label position="floating">Edereço de partida</ion-label>
+      <ion-label position="floating">CEP</ion-label>
+      <ion-input></ion-input>
+    </ion-item> 
+    <ion-item color="tertiary">
+      <ion-label position="stacked"></ion-label>
+      <ion-input placeholder="Rua"></ion-input>
+      <ion-input placeholder="Numero"></ion-input>
+      <ion-input placeholder="Complemento (Bloco A - Apto. 01"></ion-input>
+      <ion-input placeholder="Bairro"></ion-input>
+      <ion-input placeholder="Referência"></ion-input>
+    </ion-item>
+    <ion-item color="tertiary">
+      <ion-label position="floating">Edereço de destino</ion-label>
+      <ion-label position="floating">CEP</ion-label>
+      <ion-input></ion-input>
+    </ion-item> 
+    <ion-item color="tertiary">
+      <ion-label position="stacked"></ion-label>
+      <ion-input placeholder="Rua"></ion-input>
+      <ion-input placeholder="Numero"></ion-input>
+      <ion-input placeholder="Complemento (Bloco A - Apto. 01"></ion-input>
+      <ion-input placeholder="Bairro"></ion-input>
+      <ion-input placeholder="Referência"></ion-input>
+    </ion-item>
+
+    
+    
+    <ion-item color="tertiary">
+      <ion-label position="floating">Detalhes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+    <ion-button color="branco" class="button-native ion-color-branco" expand="block"  (click)="goTo('viagem-services')">
+      Continuar
+    </ion-button>
+  </ion-list>
+</ion-content>

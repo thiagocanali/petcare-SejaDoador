@@ -1,0 +1,53 @@
+<ion-content color="tertiary">
+  <ion-header  class="header-green">
+    <ion-toolbar color="tertiary">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Passeio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list class="fundo-verde">
+    <ion-item color="tertiary">
+       <ion-label position="floating">Nome do Pet</ion-label>
+       <ion-input></ion-input>
+     </ion-item> 
+    <ion-item color="tertiary">
+      <ion-label>Espécie</ion-label>
+       <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="small">Cachorro</ion-select-option>
+        <ion-select-option value="medium">Gato</ion-select-option>
+        <ion-select-option value="big">Pássaro</ion-select-option>
+        <ion-select-option value="big">Peixe</ion-select-option>
+        <ion-select-option value="big">Hamester</ion-select-option>
+      </ion-select>
+     </ion-item>
+     <ion-item color="tertiary">
+      <ion-label>Tamanho</ion-label>
+       <ion-select value="notifications" interface="action-sheet">
+         <ion-select-option value="small">Pequeno</ion-select-option>
+         <ion-select-option value="medium">Médio</ion-select-option>
+        <ion-select-option value="big">Grande</ion-select-option>
+       </ion-select>
+    </ion-item>
+    <ion-item color="tertiary">
+      <ion-label>Tempo</ion-label>
+      <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="one">1 Hora</ion-select-option>
+        <ion-select-option value="two">2 Horas</ion-select-option>
+        <ion-select-option value="three">3 Horas</ion-select-option>
+        <ion-select-option value="four">4 Horas</ion-select-option>
+        <ion-select-option value="five">5 Horas</ion-select-option>
+        <ion-select-option value="six">6 Horas</ion-select-option>  
+      </ion-select>
+    </ion-item>
+    <ion-item color="tertiary">
+      <ion-label position="floating">Detalhes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+    <ion-button color="branco" class="button-native ion-color-branco" expand="block"  (click)="goTo()">
+      Continuar
+    </ion-button>
+  </ion-list>
+</ion-content>
