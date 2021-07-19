@@ -1,0 +1,8 @@
+.logincontent{
+  height: 50rem;
+  background-image: linear-gradient(180deg, #3498DB, #5f7a8b);
+}
+
+.cadastro{
+  list-style-type: none;
+}

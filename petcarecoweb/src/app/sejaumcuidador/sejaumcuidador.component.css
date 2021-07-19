@@ -1,0 +1,75 @@
+.titulosejaumcuidador{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+
+}
+.subtitulosejaumcuidador{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+
+}
+.secaosejaumcuidador{
+  background-image: url("https://i.ibb.co/K6ZDTnc/cachorrocarro.jpg");
+  height: 45rem;
+}
+
+
+
+.textosejaumcuidador{
+  font-size: 1.8rem;
+  text-align: center;
+  color:rgb(168, 167, 167);
+
+}
+.textosejaumcuidador2{
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color:rgb(168, 167, 167);
+
+}
+.areasejaumcuidador{
+  padding-left: 0.01rem;
+  padding-right: 0.01rem;
+}
+
+.botaoqueromecadastrar{
+  background-color: #2ecc70;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+.conteudosejaumcuidador{
+
+  width: 80%;
+  position: relative;
+  left: 13rem;
+}
+
+.imagemsejaumcuidador{
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+
+
+}
+
+.titulossejaumcuidador{
+  background-color: #2ecc71
+
+}
+
+.cardseja{
+background-color: rgba(255, 255, 255, 0.849);
+
+}
+

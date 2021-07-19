@@ -1,0 +1,246 @@
+<router-outlet> </router-outlet>
+<!-- Header -->
+<header class="container-fluid">
+
+    <!-- Container menu-->
+    <section class="container" >
+      <article class="row d-flex align-items-center">
+
+        <!-- Logo -->
+        <a [routerLink] = "['/home']" class="col-md-2">
+          <img src="assets/img/logo/logoPetcare.svg" alt="Logo empresa - PetCare">
+        </a>
+
+        <!-- Search -->
+        <form action="#" class="col-md-6 d-flex align-items-center">
+          <input type="text" name="name" placeholder="Buscar">
+
+          <button class="d-flex align-items-center">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            </svg>
+          </button>
+        </form>
+
+        <!-- Login/Register -->
+        <!-- class fly para aumentar o limite do container -->
+        <ul class="col-md-4 nav fly d-flex align-items-center justify-content-around">
+          <li class="nav-item">
+            <a href="#">
+              <img src="./assets/img/logo/loginPetcare.svg" alt="Login PetCare">
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <img src="./assets/img/logo/cadastrarPetcare.svg" alt="Cadastrar-se PetCare">
+            </a>
+          </li>
+
+        </ul>
+      </article>
+    </section>
+  </header>
+  <!-- End Header-->
+
+  <!-- Menu -->
+  <nav class="container-fluid nav-produtos backmenu">
+    <section class="container  menufont">
+      <ul class="nav d-flex">
+        <li class="nav-item">
+          <a [routerLink] = "['/sejaumcuidador']">
+            <img src="assets/img/logo/cuidadorHome.png" alt="Seja um cuidador PetCare">
+            <h2>
+              Seja um cuidador
+            </h2>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink] = "['/contrateumservico']">
+            <img src="assets/img/logo/contrateHome.png" alt="Contrate um serviço PetCare">
+            <h2>
+              Contrate um serviço
+            </h2>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink] = "['/duvidasfrequentes']">
+            <img src="assets/img/logo/faqHome.png" alt="Duvidas frequentes sobre a PetCare">
+            <h2>
+              Duvidas frequentes
+            </h2>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink] = "['/sobrenos']">
+            <img src="assets/img/logo/nosHome.png" alt="Sobre a PetCare">
+            <h2>
+              Sobre nós
+            </h2>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink] = "['/sejaumheroi']">
+            <img src="assets/img/logo/heroiHome.png" alt="Contrate um serviço">
+            <h2>
+              Seja um herói
+            </h2>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+  
+    <div class="container">
+      <h2>Dúvidas Frequentes</h2>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Quem somos?</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">Nós amamos pets e sabemos o quão importante esses bichinhos são para nós e seus donos. Oferecemos espaços, produtos e serviços para que o seu pet se sinta em casa e você possa fazer suas atividades sem se preocupar com o seu animalzinho.
+    Para nós, a melhor coisa é ver que nossos clientes e pets estão bem e por isso estamos sempre dando o nosso melhor para que você e seus pets tenham a melhor experiência em nossos serviços que são preparados e organizados para você encontrar facilmente o que procura, sem se preocupar com a comodidade.
+    Tratamos todos os pets com muita dedicação, carinho e respeito, nos esforçamos ao máximo para que nossos serviços cumpram e ultrapassem as expectativas.
+    Convidamos você a dar um primeiro passo e realizar o seu cadastro, dê uma olhada nos nossos serviços e qualquer dúvida, escreva para nós!</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Quais são os serviços oferecidos?</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Atualmente nossa plataforma conta com dois tipos de serviço, o de passeio e o trasnporte.
+              No passeio, o dono solicita um serviço pelo APP e o prestador do serviço vai até o local, pega o PET e leva para a caminhada, com um tempo pré determinado.
+              No transporte, o dono escolhe um local de partida e um local de destino, o prestador vai até o local, pega o PET e leva para onde foi determinado pelo dono </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Como contratar um serviço?</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">Hoje a plataforma Petcare CO. oferece apenas um tipo de serviço que é o de passear com seu pet pelo bairro ou por onde seu pet mais gosta de ir.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Qual a forma de pagamento?</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">Escrever</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Posso acompanhar meu pet enquanto ele caminha?</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">Sim, você poderá acompanhar do momento em que ele sai de casa até a sua volta, pelo APP da Pet Care.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Qual o tempo mínimo que possa contratar pelo app?</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">O tempo é determinado pela necessidade do contratante do serviço.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Como acesso a plataforma da Pet Care?</a>
+            </h4>
+          </div>
+          <div id="collapse7" class="panel-collapse collapse">
+            <div class="panel-body">Nós estamos no em seu navegador, basta procurar por www.petcarecompany.com.br e nas lojas de aplicativo do seu celular por Pet Care CO.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Pergunta 8</a>
+            </h4>
+          </div>
+          <div id="collapse8" class="panel-collapse collapse">
+            <div class="panel-body">Escrever</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Pergunta 9</a>
+            </h4>
+          </div>
+          <div id="collapse9" class="panel-collapse collapse">
+            <div class="panel-body">Escrever</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Pergunta 10</a>
+            </h4>
+          </div>
+          <div id="collapse10" class="panel-collapse collapse">
+            <div class="panel-body">Escrever</div>
+          </div>
+        </div>
+
+
+
+
+
+  <footer class="container-fluid"style="background-color: #2ecc71;">
+    <section class="container " >
+      <section class="row">
+        <article class="col-md-4">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#">
+                <img src="assets/img/logo/fbicon.png" alt="Facebook">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="assets/img/logo/igicon.png" alt="Instagram">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="assets/img/logo/lkicon.png" alt="LinkedIn">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="assets/img/logo/tticon.png" alt="Twitter">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="assets/img/logo/yticon.png" alt="Youtube">
+              </a>
+            </li>
+          </ul>
+          <br>
+          <h4> &copy; 2021 PetCare Services</h4>
+        </article>
+      </section>
+    </section>
+  </footer>
+
+

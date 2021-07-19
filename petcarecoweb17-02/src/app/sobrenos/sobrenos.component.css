@@ -1,0 +1,63 @@
+
+
+.div-0{
+  width: 50px;
+  margin: 1em auto;
+  float: left;
+}
+
+.div-1{
+  width: 450px;
+  border: 2px solid black;
+  margin: 1em auto;
+  margin-left: 2%;
+  float: left;
+}
+
+.div-2{
+  width: 800px;
+  border: 2px solid black;
+  margin: 1em auto;
+  margin-left: 2%;
+  float: left;
+}
+
+.div-3{
+  width: 450px;
+  border: 2px solid black;
+  margin: 1em auto;
+  margin-left: 2%;
+  float: left;
+}
+
+
+.textoSimples{
+  color: black;
+
+}
+
+.textoSimplesOpaco{
+
+}
+
+.tituloMaiorDiv1{
+  font-size:larger;
+}
+
+.titulosDiv1{
+  font-size:large;
+
+}
+
+.titulosDiv2{
+  font-size:large;
+
+}
+
+.titulosDiv3{
+  font-size:large;
+
+}
+
+
+
