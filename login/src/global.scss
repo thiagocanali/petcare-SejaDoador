@@ -1,0 +1,88 @@
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header das pages*/
+
+.logo-pages {
+  width: min-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  padding: .3rem;
+}
+.header-blue {
+  background-color: #3498db;
+}
+.header-green {
+  background-color: #2ecc71;
+}
+.header-red {
+  background-color: #e74c3c;
+}
+
+ 
+/* buttons */
+
+.button-green {
+  color:#2ecc71;
+}
+.button-red {
+  color:#e74c3c;
+}
+.button-service{
+  --color: #fff;
+  --border-radius: 2rem;
+  display: block;
+}
+.services-padding{
+    margin-top: 1.2rem;
+}
+
+
+/* Cadastro Estilo*/
+
+#bnt-cor {
+  --backgrond: #fff;
+  --color: #3498D8; 
+  --padding-end: 5rem;
+  --border-radius: 1.2rem;
+}
+.fundo-tela{
+  --ion-background-color: #3498db;
+}
+.ion-color-branco {
+  --ion-color-base: var(--ion-color-branco, #fff);
+  --ion-color-contrast: var(--ion-color-branco-contrast, #3498db);
+  --border-radius: 1.5rem;
+  padding-left: unset;
+  padding-right: unset;
+  padding-inline-start: var(--padding-start);
+  padding-inline-end: var(--padding-end);
+}
+
+/* padding text */
+.text-card{
+  text-align: justify;
+  font-size: .85rem;
+}
